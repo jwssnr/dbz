@@ -1,8 +1,1 @@
-$(document).ready(function(){
-
-  $(".trigger").click(function(){
-  $(this).toggleClass("offen");
-  $(this).next().slideToggle();
-  });
-
-});
+!function(t){t.fn.nospam=function(r){return r=t.extend({replaceText:!1,filterLevel:"normal"},r),this.each((function(){e=null,"low"==r.filterLevel?t(this).is("a[rel]")?e=t(this).attr("rel").replace("//","@").replace(/\//g,"."):e=t(this).text().replace("//","@").replace(/\//g,"."):t(this).is("a[rel]")?e=t(this).attr("rel").split("").reverse().join("").replace("//","@").replace(/\//g,"."):e=t(this).text().split("").reverse().join("").replace("//","@").replace(/\//g,"."),e&&(t(this).is("a[rel]")?(t(this).attr("href","mailto:"+e),r.replaceText&&t(this).text(e)):t(this).text(e))}))}}(jQuery),$(document).ready((function(){$(".trigger").click((function(){$(this).toggleClass("offen"),$(this).next().slideToggle()})),$(".keinspam").nospam({replaceText:!0})}));

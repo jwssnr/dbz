@@ -156,6 +156,28 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/assets/js/_nospam.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/assets/js/_nospam-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/js/dbz.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dbz.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
 	"/assets/sass/_bplabels.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -233,17 +255,6 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
-		},
-	"/dbz.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dbz-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/destyle.css": {
 		"aP": 1,
@@ -401,6 +412,25 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/styles.css": {
 		"aP": 1,
