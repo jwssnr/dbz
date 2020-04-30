@@ -9,17 +9,6 @@
 	],
 "creatorBuild": "32001",
 "files": {
-	"/assets/bilder/andrea_degginger.jpg": {
-		"ft": 16384,
-		"iS": 12165128,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/bilder/andrea_degginger.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/assets/bilder/dbz-kanzlei.jpg": {
 		"ft": 16384,
 		"iS": 886613,
@@ -114,6 +103,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/bilder/portraits/andrea_degginger_1x.jpg": {
+		"ft": 16384,
+		"iS": 58932,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/portraits/andrea_degginger_1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/portraits/andrea_degginger_2x.jpg": {
+		"ft": 16384,
+		"iS": 175747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/portraits/andrea_degginger_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/portraits/severin_bischof_1x.jpg": {
+		"ft": 16384,
+		"iS": 59536,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/portraits/severin_bischof_1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/portraits/severin_bischof_2x.jpg": {
+		"ft": 16384,
+		"iS": 184849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/portraits/severin_bischof_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/portraits/stephan_zlabinger_1x.jpg": {
+		"ft": 16384,
+		"iS": 48022,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/portraits/stephan_zlabinger_1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/portraits/stephan_zlabinger_2x.jpg": {
+		"ft": 16384,
+		"iS": 142037,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/portraits/stephan_zlabinger_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/bilder/section-end.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -123,28 +178,6 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
-		},
-	"/assets/bilder/severin_bischof.jpg": {
-		"ft": 16384,
-		"iS": 14339791,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/bilder/severin_bischof.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/bilder/stephan_zlabinger.jpg": {
-		"ft": 16384,
-		"iS": 16054825,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/bilder/stephan_zlabinger.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/assets/bilder/up.svg": {
 		"ft": 2097152,
@@ -255,6 +288,17 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"/dbz.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dbz-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/destyle.css": {
 		"aP": 1,
