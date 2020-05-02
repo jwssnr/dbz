@@ -31,6 +31,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/bilder/kanzlei_1x.jpg": {
+		"ft": 16384,
+		"iS": 227055,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/kanzlei_1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/kanzlei_2x.jpg": {
+		"ft": 16384,
+		"iS": 783492,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/kanzlei_2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/bilder/kontakt.svg": {
 		"ft": 2097152,
 		"miP": 0,
