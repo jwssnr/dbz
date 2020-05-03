@@ -53,16 +53,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/bilder/kontakt.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/bilder/kontakt.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/assets/bilder/kontakt_2.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -94,15 +84,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/assets/bilder/line_Zeichenfläche 1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/bilder/line_Zeichenfläche 1.svg",
+	"/assets/bilder/linie_pfeil.png": {
+		"ft": 32768,
+		"iS": 2561,
+		"oA": 0,
+		"oAP": "/assets/bilder/linie_pfeil.png",
 		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/bilder/location.svg": {
 		"ft": 2097152,
