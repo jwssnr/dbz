@@ -7,6 +7,10 @@ $(document).ready(function(){
   $(this).next().slideToggle();
   });
 
+  $(".kontaktsymbol").click(function(){
+  $("#kontaktdaten").toggleClass("offen");
+  });
+
   $('.keinspam').nospam({ replaceText: true });
 
 });
