@@ -10,6 +10,9 @@ $(document).ready(function(){
   $(".kontaktsymbol").click(function(){
   $("#kontaktdaten").toggleClass("offen");
   });
+  $(".schliessen").click(function(){
+  $("#kontaktdaten").toggleClass("offen");
+  });
 
   $('.keinspam').nospam({ replaceText: true });
 
