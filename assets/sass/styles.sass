@@ -128,7 +128,13 @@ body
   width: 30px
   cursor: pointer
   +bp (mega)
+    position: absolute
     display: block
+    left: 2em
+    bottom: 3em
+  +bp (maxi)
+    top: 3em
+    right: 3em
 
 #up
   position: fixed
@@ -170,15 +176,21 @@ body
 #gruppenfoto
   grid-column: 7/11
   grid-row: 1/4
-  background-image: url(./assets/bilder/dbz-kanzlei.jpg)
-  background-size: cover
-  background-position: center
   height: 100vh
   z-index: 2
+  background-image: url(./assets/bilder/team/dbz-kanzlei_2000.jpg)
+  background-size: cover
+  background-position: center
   +bp (maxi)
     grid-column: 1/11
     grid-row: 2/3
     height: 60vh
+    background-image: none
+  img
+    display: none
+    +bp (maxi)
+      display: block
+
 
 // __________________________________________________________________________________________________
 

@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/assets/bilder/close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/bilder/close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/assets/bilder/dbz-kanzlei.jpg": {
 		"ft": 16384,
 		"iS": 886613,
@@ -18,17 +28,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/assets/bilder/kanzlei.jpg": {
-		"ft": 16384,
-		"iS": 698000,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/bilder/kanzlei.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"/assets/bilder/kanzlei_1x.jpg": {
@@ -52,6 +51,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/assets/bilder/kontakt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/bilder/kontakt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/assets/bilder/line.png": {
 		"ft": 32768,
@@ -181,6 +190,94 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/assets/bilder/team/dbz-kanzlei_1000.jpg": {
+		"ft": 16384,
+		"iS": 419172,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_1000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/team/dbz-kanzlei_1300.jpg": {
+		"ft": 16384,
+		"iS": 675000,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_1300.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/bilder/team/dbz-kanzlei_1900.jpg": {
+		"ft": 16384,
+		"iS": 652267,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_1900.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/team/dbz-kanzlei_2000.jpg": {
+		"ft": 16384,
+		"iS": 1534995,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_2000.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/team/dbz-kanzlei_400.jpg": {
+		"ft": 16384,
+		"iS": 92258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_400.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/bilder/team/dbz-kanzlei_650.jpg": {
+		"ft": 16384,
+		"iS": 199851,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_650.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/bilder/team/dbz-kanzlei_800.jpg": {
+		"ft": 16384,
+		"iS": 200183,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_800.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/bilder/team/dbz-kanzlei_950.jpg": {
+		"ft": 16384,
+		"iS": 185349,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/bilder/team/dbz-kanzlei_950.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/assets/bilder/up.svg": {
 		"ft": 2097152,

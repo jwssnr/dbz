@@ -11,7 +11,7 @@
   <script src="dbz.js" charset="utf-8"></script>
 </head>
 <body>
-
+  <div id="scroll"></div>
   <div class="section zero">
     <div class="" id="logo">
       <div class="scrollme">
@@ -33,7 +33,7 @@
       </div>
       <img class="kontaktsymbol" src="./assets/bilder/kontakt.svg" alt="Kontaktsymbol">
     </div>
-    <a href="#gruppenfoto"><div class="" id="up"><img src="./assets/bilder/up.svg" alt=""></div></a>
+    <a href="#scroll"><div id="up"><img src="./assets/bilder/up.svg" alt=""></div></a>
   </div>
 
   <div class="section one">
@@ -41,7 +41,26 @@
       <h1>Wir sind eine Rechtsanwältin und zwei Rechtsanwälte in St.Gallen, die gemeinsame Werte verbinden</h1><br>
       <p>Sie stehen im Mittelpunkt. Wir hören Ihnen zu und setzen das um, was Ihnen wichtig ist. In Ihrer Sache vertreten wir Sie entschieden, beharrlich und respektvoll. Wir suchen nach tragfähigen und nachhaltigen Lösungen. Weiter&shy;bildung und der fachliche Austausch gehören unbedingt dazu. Jungen Juristinnen und Juristen bieten wir zudem jährlich einen Praktikumsplatz an.</p>
     </div>
-    <div class="" id="gruppenfoto"></div>
+    <div id="gruppenfoto">
+      <picture>
+        <source media="(max-width: 400px)"
+        srcset="./assets/bilder/team/dbz-kanzlei_400.jpg 1x,
+                ./assets/bilder/team/dbz-kanzlei_800.jpg 2x">
+
+        <source media="(max-width: 650px)"
+        srcset="./assets/bilder/team/dbz-kanzlei_650.jpg 1x,
+                ./assets/bilder/team/dbz-kanzlei_1300.jpg 2x">
+
+        <source media="(max-width: 950px)"
+        srcset="./assets/bilder/team/dbz-kanzlei_950.jpg 1x,
+                ./assets/bilder/team/dbz-kanzlei_1900.jpg 2x">
+
+        <source srcset="./assets/bilder/team/dbz-kanzlei_1000.jpg 1x,
+                        ./assets/bilder/team/dbz-kanzlei_2000.jpg 1x">
+        <!-- Fallback: -->
+        <img src="./assets/bilder/team/dbz-kanzlei_1000.jpg">
+      </picture>
+    </div>
     <div class="punkte"></div>
   </div>
 
