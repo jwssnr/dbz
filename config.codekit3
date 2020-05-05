@@ -27,7 +27,7 @@
 		"oAP": "/assets/bilder/dbz-kanzlei.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/bilder/kanzlei_1x.jpg": {
@@ -38,7 +38,7 @@
 		"oAP": "/assets/bilder/kanzlei_1x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/bilder/kanzlei_2x.jpg": {
@@ -62,17 +62,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/assets/bilder/line.png": {
-		"ft": 32768,
-		"iS": 191,
-		"oA": 0,
-		"oAP": "/assets/bilder/line.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/bilder/line.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -85,7 +74,7 @@
 		},
 	"/assets/bilder/linie_pfeil.png": {
 		"ft": 32768,
-		"iS": 2561,
+		"iS": 3026,
 		"oA": 0,
 		"oAP": "/assets/bilder/linie_pfeil.png",
 		"oF": 0,
@@ -104,17 +93,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/assets/bilder/map.png": {
-		"ft": 32768,
-		"iS": 276755,
-		"oA": 0,
-		"oAP": "/assets/bilder/map.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/bilder/portraits/andrea_degginger_1x.jpg": {
 		"ft": 16384,
 		"iS": 58932,
@@ -123,7 +101,7 @@
 		"oAP": "/assets/bilder/portraits/andrea_degginger_1x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/bilder/portraits/andrea_degginger_2x.jpg": {
@@ -164,7 +142,7 @@
 		"iS": 48022,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/bilder/portraits/stephan_zlabinger_1x.jpg",
+		"oAP": "/assets/bilder/portraits/.stephan_zlabinger_1x~imageoptim.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -204,7 +182,7 @@
 		},
 	"/assets/bilder/team/dbz-kanzlei_1300.jpg": {
 		"ft": 16384,
-		"iS": 675000,
+		"iS": 852672,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/bilder/team/dbz-kanzlei_1300.jpg",
@@ -221,7 +199,7 @@
 		"oAP": "/assets/bilder/team/dbz-kanzlei_1900.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/bilder/team/dbz-kanzlei_2000.jpg": {
@@ -232,7 +210,7 @@
 		"oAP": "/assets/bilder/team/dbz-kanzlei_2000.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/bilder/team/dbz-kanzlei_400.jpg": {

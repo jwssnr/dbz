@@ -209,7 +209,12 @@ body
   grid-template-rows: auto auto
   +bp (maxi)
     grid-template-columns: 1em repeat(3, 1fr) 1em
+  +bp (midi)
+    grid-template-columns: 100%
+    padding: 0 2em 0 2em
   div
+    +bp (midi)
+      grid-column: 1/2
     img
       width: 100%
       height: auto
@@ -218,6 +223,9 @@ body
     width: 35px
   .person1
     grid-column: 2/3
+    +bp (midi)
+      grid-column: 1/2
+
 
   p, li, a
     font-size:
@@ -228,17 +236,17 @@ body
 
 .accordion
   margin-top: 1em
-  h4
-    font-size: 1rem
+  +bp (midi)
+    margin-bottom: 1em
   p, li, a, strong
     font-size: 16.5px
   strong
     font-family: 'HarrisonSerifPro-Bold'
     display: block
   h4
+    font-size: 1rem
     position: relative
     background-image: url(./assets/bilder/linie_pfeil.png)
-    // background-position: calc(100% - 3rem) 14px
     background-position: right
     background-repeat: no-repeat
     background-size: 300px auto
@@ -259,7 +267,6 @@ body
   //   background-position: center
   .info
     padding-right: 10px
-    position: relative
     margin-bottom: 1em
     display: none
     line-height: 1.4em
@@ -271,11 +278,11 @@ body
     display: block
 
 
-
-
 .untertitel
   min-height: 65px
   font-size: 16.5px
+  +bp (midi)
+    min-height: 0
 
 .konsulentinnen
   margin-top: 3em
