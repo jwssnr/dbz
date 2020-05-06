@@ -94,6 +94,8 @@ body
 #logo
   grid-column: 1/3
   padding: 3em 1em 0 2em
+  +bp (mini)
+    padding: 2em 1em 0 1em
 
 #kontaktdaten
   +bp (mega)
@@ -172,6 +174,8 @@ body
     padding-bottom: 4em
     grid-row: 1/2
     padding: 0 2em 3em 2em
+  +bp (mini)
+    padding: 0 1em 2em 1em
 
 #gruppenfoto
   grid-column: 7/11
@@ -200,6 +204,8 @@ body
   +bp (maxi)
     grid-template-columns: 1fr
     grid-gap: 0
+  +bp (mini)
+    padding: 0 1em
 
 // __________________________________________________________________________________________________
 
@@ -213,7 +219,7 @@ body
     grid-template-columns: 100%
     padding: 0 4em 0 4em
   +bp (mini)
-    padding: 0 2em 0 2em
+    padding: 0 1em 0 1em
 
   div
     +bp (midi)
@@ -300,6 +306,8 @@ body
   +bp (maxi)
     grid-template-columns: 1fr
     grid-gap: 0
+  +bp (mini)
+    padding: 0 1em
 
   span::before
     content: ""
