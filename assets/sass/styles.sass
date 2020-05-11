@@ -150,7 +150,8 @@ body
     transition: 0.5s
   img
     width: 100%
-
+  +bp (midi)
+    opacity: 0
 // __________________________________________________________________________________________________
 
 .one
@@ -216,7 +217,8 @@ body
   grid-template-rows: auto auto
   +bp (maxi)
     grid-template-columns: repeat(3, 1fr)
-    padding: 0 2em 0 2em
+    padding: 0 0.6em 0 2em
+    grid-column-gap: 1.4em
   +bp (midi)
     grid-template-columns: 100%
     padding: 0 4em 0 4em
