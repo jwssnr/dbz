@@ -7,12 +7,38 @@
   <title>Degginger Bischof Zlabinger - Kanzlei St.Gallen</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://code.jquery.com/jquery-latest.js"></script>
-  <script src="jquery.scrollme.js"></script>
-  <script src="dbz.js" charset="utf-8"></script>
+  <script src="dbz-min.js" charset="utf-8"></script>
 </head>
 <body>
   <div id="scroll"></div>
 
+
+<!--
+Todo:
+- schriftgrössen in rem
+- grids angleichen: alles 10-spaltig.
+- Adressen oben an den Personenspalten und grösse anpassen.
+- maximalbreite layout entfernen
+- telefonnummern in personen verlinken
+- unterstreichungen heller
+- ein paar st. gallen noch mit abstand drin
+- im footer auf telefonnummern verzichten
+- andere lösung für höhe gruppenfoto und zusammenspiel section-höhe
+- overlay kontakt: position wie logo und pos fixed, dafür ev logo wiederholen und selbiges nicht mehr fixed?
+- scrolltop ev nur auf phone anzeigen und nicht fixed, oder vielleicht einfach wenns eng wird weglassen.
+- kuvert-icon auf satzspiegel stellen
+- wüste zeilenumbrüche in titeln verhindern
+- ev. bildausschnitte nochmals anschauen
+
+erledigt:
+- bisschen daten aufgeräumt
+- eot fontformat entfernt
+- accordeon: umgestellt auf nur eine info kann offen sein
+- accordeon: fonts verbessert.
+- accordeon: links nicht kursiv
+- ein paar br durch margin ersetzt.
+- inline-style bei map ausgelagert.
+-->
 
 <!-- Fixierter Bereich -->
 
@@ -25,14 +51,14 @@
         </div>
       </div>
       <div id="kontaktdaten">
-        <img class="schliessen" src="./assets/bilder/close.svg" alt="Schliessen-Button">
+        <img class="schliessen" src="assets/bilder/close.svg" alt="Schliessen-Button">
         <ul>
           <li>St.Leonhard-Strasse 20</li>
           <li>Postfach 123</li>
           <li>CH-9001 St.Gallen</li><br>
-          <li><a href="#" rel="hc/zbd-ielznak//eciffo" class="keinspam">office@kanzlei-dbz.ch</a></li>
-          <li> T   <a href="tel:+41 71 220 90 70">+41 71 220 90 70</a></li>
-          <li> T   <a href="tel:+41 71 223 81 21">+41 71 223 81 21</a></li>
+          <li><a href="#" rel="hc/zbd-ielznak//eciffo" class="keinspam">E-Mail</a></li>
+          <li>T <a href="tel:+41 71 220 90 70">+41 71 220 90 70</a></li>
+          <li>T <a href="tel:+41 71 223 81 21">+41 71 223 81 21</a></li>
         </ul>
       </div>
       <img class="kontaktsymbol" src="./assets/bilder/kontakt.svg" alt="Kontaktsymbol">
@@ -76,8 +102,8 @@
 
   <div class="section two">
     <div class="titel"><h1>Unsere Spezialgebiete, Tätigkeiten und Kosten</h1></div>
-    <div class="text"><p>Wir sind sowohl beratend wie auch vor Gericht tätig. Die Lebensbereiche, in denen wir Sie unterstützen können, finden Sie bei unserem jeweiligen Profil.</p><br>
-                    <p>Grundsätzlich bemessen wir unser Honorar nach Zeitaufwand, d.h. nach der Zeit, die wir für Ihre Sache einsetzen. Die Finanzierung klären wir mit Ihnen im Einzelfall und prüfen dabei auch, ob Sie Anspruch auf Deckung durch Ihre Rechtsschutzversicherung oder auf unentgeltliche Rechtspflege haben.</p></div>
+    <div class="text"><p>Wir sind sowohl beratend wie auch vor Gericht tätig. Die Lebensbereiche, in denen wir Sie unterstützen können, finden Sie bei unserem jeweiligen Profil.</p>
+    <p>Grundsätzlich bemessen wir unser Honorar nach Zeitaufwand, d.h. nach der Zeit, die wir für Ihre Sache einsetzen. Die Finanzierung klären wir mit Ihnen im Einzelfall und prüfen dabei auch, ob Sie Anspruch auf Deckung durch Ihre Rechtsschutzversicherung oder auf unentgeltliche Rechtspflege haben.</p></div>
   </div>
   <div class="punkte"></div>
 
@@ -93,6 +119,10 @@
       </picture>
       <h2>Andrea Degginger</h2>
       <p class="untertitel">Dr. iur., Rechtsanwältin, öffentliche Notarin und Mediatorin Schweizer&shy;ischer Anwalts&shy;verband</p>
+      <p><a href="#" rel="hc/zbd-ielznak//regnigged" class="keinspam">degginger@kanzlei-dbz.ch</a>
+        <br>T <a href="tel:+41 71 220 90 70">+41 71 220 90 70</a>
+        <br>F +41 71 220 90 71</p>
+
       <div class="accordion">
         <h4 class="trigger"><span>Tätigkeitsgebiete</span></h4>
           <ul class="info">
@@ -132,7 +162,6 @@
             <br>St.Galler Juristenverein
             <br>Institut für Mediation Zürich
           </p>
-        <h4 class="trigger offen"><span>Kontakt</span></h4><p><a href="#" rel="hc/zbd-ielznak//regnigged" class="keinspam">degginger@kanzlei-dbz.ch</a><br> T   <a href="tel:+41 71 220 90 70">+41 71 220 90 70</a><br>F   +41 71 220 90 71</p>
       </div>
     </div>
 
@@ -194,7 +223,7 @@
       </div>
     </div>
 
-    <div class="">
+    <div class="person3">
       <picture>
         <source srcset="./assets/bilder/portraits/stephan_zlabinger_1x.jpg 1x,
                         ./assets/bilder/portraits/stephan_zlabinger_2x.jpg 2x">
@@ -237,9 +266,9 @@
           </p>
         <h4 class="trigger"><span>Mitgliedschaften</span></h4>
           <p class="info">
-            St. Galler Anwaltsverband
+            St.Galler Anwaltsverband
             <br>Schweizerischer Anwaltsverband
-            <br>St. Galler Juristenverein
+            <br>St.Galler Juristenverein
             <br>Demokratische Juristinnen und Juristen Schweiz
             <br>Mitglied des Vereins Kinderrechte Ostschweiz
           </p>
@@ -258,9 +287,10 @@
 
   <div class="section four">
     <div class="titel"><h1>So erreichen Sie uns per ÖV oder mit dem Auto</h1></div>
-    <div class="text"><p>Unsere Kanzlei liegt im Zentrum von St.Gallen, drei Gehminuten vom Bahnhof St.Gallen entfernt.<br><br>
-                    Autobahnausfahrt SG-Kreuzbleiche, dann Richtung Zentrum. Parkplätze im Parkhaus Neumarkt, Rathaus oder Manor.<br><br>
-                    <a href="https://goo.gl/maps/NsaZU3VwKVX8mfUc7" target="_blank"><span style="font-family: 'HarrisonSerifPro-LightItalic'">Standort auf Google Maps ansehen</span></a></p></div>
+    <div class="text">
+      <p>Unsere Kanzlei liegt im Zentrum von St.Gallen, drei Gehminuten vom Bahnhof St.Gallen entfernt.</p>
+      <p>Autobahnausfahrt St.Gallen-Kreuzbleiche, dann Richtung Zentrum. Parkplätze im Parkhaus Neumarkt, Rathaus oder Manor.</p>
+      <p><span><a href="https://goo.gl/maps/NsaZU3VwKVX8mfUc7" target="_blank">Standort auf Google Maps ansehen</a></span></p></div>
     <picture>
       <source srcset="./assets/bilder/kanzlei_1x.jpg 1x,
                       ./assets/bilder/kanzlei_2x.jpg 2x">

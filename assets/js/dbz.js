@@ -1,9 +1,11 @@
 // @codekit-prepend "_nospam.js";
+// @codekit-prepend "_scrollme.js";
 
 $(document).ready(function(){
 
   $(".trigger").click(function(){
-  $(this).toggleClass("offen");
+  // $(this).toggleClass("offen");
+  $(this).siblings(".trigger").next().slideUp();
   $(this).next().slideToggle();
   });
 

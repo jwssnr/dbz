@@ -9,16 +9,16 @@
  * You may obtain a valid license at the URLs below.
  *
  * Webfont: HarrisonSerifPro-Bold by TypeMates
- * URL: https://www.myfonts.com/fonts/typemates/harrison-serif-pro/bold/
+ * URL: https://www.myfonts.com/assets/fonts/typemates/harrison-serif-pro/bold/
  *
  * Webfont: HarrisonSerifPro-BoldItalic by TypeMates
- * URL: https://www.myfonts.com/fonts/typemates/harrison-serif-pro/bold-italic/
+ * URL: https://www.myfonts.com/assets/fonts/typemates/harrison-serif-pro/bold-italic/
  *
  * Webfont: HarrisonSerifPro-Light by TypeMates
- * URL: https://www.myfonts.com/fonts/typemates/harrison-serif-pro/light/
+ * URL: https://www.myfonts.com/assets/fonts/typemates/harrison-serif-pro/light/
  *
  * Webfont: HarrisonSerifPro-LightItalic by TypeMates
- * URL: https://www.myfonts.com/fonts/typemates/harrison-serif-pro/light-italic/
+ * URL: https://www.myfonts.com/assets/fonts/typemates/harrison-serif-pro/light-italic/
  *
  *
  * License: https://www.myfonts.com/viewlicense?type=web&buildid=3778036
@@ -32,14 +32,22 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/39a5f4");
 
+@font-face {font-family: 'HarrisonSerifPro-Bold';
+  src: url('assets/fonts/39A5F4_0_0.woff2') format('woff2'),
+  url('assets/fonts/39A5F4_0_0.woff') format('woff'),
+  url('assets/fonts/39A5F4_0_0.ttf') format('truetype');}
 
-@font-face {font-family: 'HarrisonSerifPro-Bold';src: url('fonts/39A5F4_0_0.eot');src: url('fonts/39A5F4_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/39A5F4_0_0.woff2') format('woff2'),url('fonts/39A5F4_0_0.woff') format('woff'),url('fonts/39A5F4_0_0.ttf') format('truetype');}
+@font-face {font-family: 'HarrisonSerifPro-BoldItalic';
+  src: url('assets/fonts/39A5F4_1_0.woff2') format('woff2'),
+  url('assets/fonts/39A5F4_1_0.woff') format('woff'),
+  url('assets/fonts/39A5F4_1_0.ttf') format('truetype');}
 
+@font-face {font-family: 'HarrisonSerifPro-Light';
+  src: url('assets/fonts/39A5F4_2_0.woff2') format('woff2'),
+  url('assets/fonts/39A5F4_2_0.woff') format('woff'),
+  url('assets/fonts/39A5F4_2_0.ttf') format('truetype');}
 
-@font-face {font-family: 'HarrisonSerifPro-BoldItalic';src: url('fonts/39A5F4_1_0.eot');src: url('fonts/39A5F4_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/39A5F4_1_0.woff2') format('woff2'),url('fonts/39A5F4_1_0.woff') format('woff'),url('fonts/39A5F4_1_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'HarrisonSerifPro-Light';src: url('fonts/39A5F4_2_0.eot');src: url('fonts/39A5F4_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/39A5F4_2_0.woff2') format('woff2'),url('fonts/39A5F4_2_0.woff') format('woff'),url('fonts/39A5F4_2_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'HarrisonSerifPro-LightItalic';src: url('fonts/39A5F4_3_0.eot');src: url('fonts/39A5F4_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/39A5F4_3_0.woff2') format('woff2'),url('fonts/39A5F4_3_0.woff') format('woff'),url('fonts/39A5F4_3_0.ttf') format('truetype');}
+@font-face {font-family: 'HarrisonSerifPro-LightItalic';
+  src: url('assets/fonts/39A5F4_3_0.woff2') format('woff2'),
+  url('assets/fonts/39A5F4_3_0.woff') format('woff'),
+  url('assets/fonts/39A5F4_3_0.ttf') format('truetype');}
