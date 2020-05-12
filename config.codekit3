@@ -49,7 +49,7 @@
 		"oAP": "/assets/bilder/kanzlei_2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/bilder/kontakt.svg": {
@@ -95,18 +95,18 @@
 		},
 	"/assets/bilder/portraits/andrea_degginger_1x.jpg": {
 		"ft": 16384,
-		"iS": 58932,
+		"iS": 75899,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/bilder/portraits/andrea_degginger_1x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/assets/bilder/portraits/andrea_degginger_2x.jpg": {
 		"ft": 16384,
-		"iS": 175747,
+		"iS": 230071,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/bilder/portraits/andrea_degginger_2x.jpg",
@@ -117,7 +117,7 @@
 		},
 	"/assets/bilder/portraits/severin_bischof_1x.jpg": {
 		"ft": 16384,
-		"iS": 59536,
+		"iS": 76735,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/bilder/portraits/severin_bischof_1x.jpg",
@@ -128,7 +128,7 @@
 		},
 	"/assets/bilder/portraits/severin_bischof_2x.jpg": {
 		"ft": 16384,
-		"iS": 184849,
+		"iS": 233393,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/bilder/portraits/severin_bischof_2x.jpg",
@@ -139,10 +139,10 @@
 		},
 	"/assets/bilder/portraits/stephan_zlabinger_1x.jpg": {
 		"ft": 16384,
-		"iS": 48022,
+		"iS": 64639,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/bilder/portraits/.stephan_zlabinger_1x~imageoptim.jpg",
+		"oAP": "/assets/bilder/portraits/stephan_zlabinger_1x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -150,7 +150,7 @@
 		},
 	"/assets/bilder/portraits/stephan_zlabinger_2x.jpg": {
 		"ft": 16384,
-		"iS": 142037,
+		"iS": 193802,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/bilder/portraits/stephan_zlabinger_2x.jpg",
@@ -182,7 +182,7 @@
 		},
 	"/assets/bilder/team/dbz-kanzlei_1300.jpg": {
 		"ft": 16384,
-		"iS": 852672,
+		"iS": 675000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/bilder/team/dbz-kanzlei_1300.jpg",
@@ -371,7 +371,7 @@
 		"oA": 1,
 		"oAP": "/assets/js/_nospam-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/assets/js/_scrollme.js": {
@@ -382,7 +382,7 @@
 		"oA": 1,
 		"oAP": "/assets/js/_scrollme-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/assets/js/dbz.js": {
@@ -397,12 +397,12 @@
 		"tS": 0
 		},
 	"/assets/sass/_bplabels.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/sass/_bplabels.css",
 		"oF": 0,
@@ -410,12 +410,12 @@
 		"uL": 1
 		},
 	"/assets/sass/_destyle.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/sass/_destyle.css",
 		"oF": 0,
@@ -423,12 +423,12 @@
 		"uL": 1
 		},
 	"/assets/sass/_fonts.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/sass/_fonts.css",
 		"oF": 0,
@@ -436,12 +436,12 @@
 		"uL": 1
 		},
 	"/assets/sass/_mixins.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/sass/_mixins.css",
 		"oF": 0,
@@ -449,12 +449,12 @@
 		"uL": 1
 		},
 	"/assets/sass/_typo.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/sass/_typo.css",
 		"oF": 0,
@@ -462,12 +462,12 @@
 		"uL": 1
 		},
 	"/assets/sass/styles.sass": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "/styles.css",
 		"oF": 2,
@@ -482,7 +482,18 @@
 		"oA": 0,
 		"oAP": "/dbz-min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
+		"tS": 0
+		},
+	"/dbz.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dbz-min.js",
+		"oF": 0,
+		"sC": 0,
 		"tS": 0
 		},
 	"/index.html": {
@@ -2440,7 +2451,7 @@
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -2541,11 +2552,11 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},

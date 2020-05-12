@@ -15,20 +15,8 @@
 
 <!--
 Todo:
-- schriftgrössen in rem
-- grids angleichen: alles 10-spaltig.
-- Adressen oben an den Personenspalten und grösse anpassen.
-- maximalbreite layout entfernen
-- telefonnummern in personen verlinken
-- unterstreichungen heller
-- ein paar st. gallen noch mit abstand drin
-- im footer auf telefonnummern verzichten
-- andere lösung für höhe gruppenfoto und zusammenspiel section-höhe
-- overlay kontakt: position wie logo und pos fixed, dafür ev logo wiederholen und selbiges nicht mehr fixed?
-- scrolltop ev nur auf phone anzeigen und nicht fixed, oder vielleicht einfach wenns eng wird weglassen.
-- kuvert-icon auf satzspiegel stellen
-- wüste zeilenumbrüche in titeln verhindern
-- ev. bildausschnitte nochmals anschauen
+- bild fixieren bei overlay
+
 
 erledigt:
 - bisschen daten aufgeräumt
@@ -38,6 +26,20 @@ erledigt:
 - accordeon: links nicht kursiv
 - ein paar br durch margin ersetzt.
 - inline-style bei map ausgelagert.
+
+- unterstreichungen heller
+- schriftgrössen in rem
+- kuvert-icon auf satzspiegel stellen
+- overlay kontakt: position wie logo und pos fixed, dafür ev logo wiederholen und selbiges nicht mehr fixed?
+- maximalbreite layout entfernen
+- grids angleichen: alles 10-spaltig.
+- telefonnummern in personen verlinken
+- ein paar st. gallen noch mit abstand drin
+- im footer auf telefonnummern verzichten
+- wüste zeilenumbrüche in titeln verhindern
+- Adressen oben an den Personenspalten und grösse anpassen.
+- scrolltop ev nur auf phone anzeigen und nicht fixed, oder vielleicht einfach wenns eng wird weglassen.
+- ev. bildausschnitte nochmals anschauen
 -->
 
 <!-- Fixierter Bereich -->
@@ -45,25 +47,23 @@ erledigt:
   <div class="section zero">
     <div class="" id="logo">
       <div class="scrollme">
-        <div class="animateme" data-when="enter" data-from="1" data-to="4" data-scalex="0.8" data-scaley="0.8" data-easing="easein" data-translatex="-22" data-translatey="-18">
+        <!-- <div class="animateme" data-when="enter" data-from="1" data-to="4" data-scalex="0.8" data-scaley="0.8" data-easing="easein" data-translatex="-22" data-translatey="-18"> -->
           <h1>Degginger<br>Bischof<br>Zlabinger</h1>
           <h2>Kanzlei</h2>
-        </div>
+        <!-- </div> -->
       </div>
       <div id="kontaktdaten">
         <img class="schliessen" src="assets/bilder/close.svg" alt="Schliessen-Button">
         <ul>
           <li>St.Leonhard-Strasse 20</li>
           <li>Postfach 123</li>
-          <li>CH-9001 St.Gallen</li><br>
+          <li>CH-9001 St.Gallen</li>
           <li><a href="#" rel="hc/zbd-ielznak//eciffo" class="keinspam">E-Mail</a></li>
-          <li>T <a href="tel:+41 71 220 90 70">+41 71 220 90 70</a></li>
-          <li>T <a href="tel:+41 71 223 81 21">+41 71 223 81 21</a></li>
         </ul>
       </div>
       <img class="kontaktsymbol" src="./assets/bilder/kontakt.svg" alt="Kontaktsymbol">
     </div>
-    <a href="#scroll"><div id="up"><img src="./assets/bilder/up.svg" alt=""></div></a>
+
   </div>
 
 
@@ -101,7 +101,7 @@ erledigt:
 <!-- Tätigkeiten -->
 
   <div class="section two">
-    <div class="titel"><h1>Unsere Spezialgebiete, Tätigkeiten und Kosten</h1></div>
+    <div class="titel"><h1>Unsere Spezialgebiete, Tätigkeiten und&nbsp;Kosten</h1></div>
     <div class="text"><p>Wir sind sowohl beratend wie auch vor Gericht tätig. Die Lebensbereiche, in denen wir Sie unterstützen können, finden Sie bei unserem jeweiligen Profil.</p>
     <p>Grundsätzlich bemessen wir unser Honorar nach Zeitaufwand, d.h. nach der Zeit, die wir für Ihre Sache einsetzen. Die Finanzierung klären wir mit Ihnen im Einzelfall und prüfen dabei auch, ob Sie Anspruch auf Deckung durch Ihre Rechtsschutzversicherung oder auf unentgeltliche Rechtspflege haben.</p></div>
   </div>
@@ -118,10 +118,14 @@ erledigt:
         <img src="./assets/bilder/portraits/andrea_degginger_1x.jpg" alt="Andrea Degginger">
       </picture>
       <h2>Andrea Degginger</h2>
-      <p class="untertitel">Dr. iur., Rechtsanwältin, öffentliche Notarin und Mediatorin Schweizer&shy;ischer Anwalts&shy;verband</p>
-      <p><a href="#" rel="hc/zbd-ielznak//regnigged" class="keinspam">degginger@kanzlei-dbz.ch</a>
-        <br>T <a href="tel:+41 71 220 90 70">+41 71 220 90 70</a>
-        <br>F +41 71 220 90 71</p>
+      <div class="untertitel">
+        <p>Dr. iur., Rechtsanwältin, öffentliche Notarin und Mediatorin Schweizer&shy;ischer Anwalts&shy;verband</p>
+        <ul>
+          <li><a href="#" rel="hc/zbd-ielznak//regnigged" class="keinspam">degginger@kanzlei-dbz.ch</a></li>
+          <li>T <a href="tel:+41 71 220 90 70">+41 71 220 90 70</a></li>
+          <li>F +41 71 220 90 71</li>
+        </ul>
+      </div>
 
       <div class="accordion">
         <h4 class="trigger"><span>Tätigkeitsgebiete</span></h4>
@@ -172,7 +176,14 @@ erledigt:
         <img src="./assets/bilder/portraits/severin_bischof_1x.jpg" alt="Severin Bischof">
       </picture>
       <h2>Severin Bischof</h2>
-      <p class="untertitel">Dr.iur., Rechtsanwalt und öffentlicher Notar</p>
+      <div class="untertitel">
+        <p>Dr.iur., Rechtsanwalt und öffentlicher Notar</p>
+        <ul>
+          <li><a href="#" rel="hc/zbd-ielznak//fohcsib" class="keinspam">bischof@kanzlei-dbz.ch</a></li>
+          <li>T   <a href="tel:+41 71 223 81 21">+41 71 223 81 21</a></li>
+          <li>F   +41 71 223 81 28</li>
+        </ul>
+      </div>
       <div class="accordion">
         <h4 class="trigger"><span>Tätigkeitsgebiete</span></h4>
           <ul class="info">
@@ -218,8 +229,6 @@ erledigt:
             <li>Mitglied des <a href="https://kinderrechte-ostschweiz.ch/" target="_blank">Vereins Kinderrechte Ostschweiz</a></li>
             <li>Mitglied der <a href="https://www.swisshelpdogs.ch/" target="_blank">Schweizer Fach-, Koordinations- und Registrierstelle für Assistenzhunde Swiss HelpDogs</a></li>
           </ul>
-        <h4 class="trigger offen"><span>Kontakt</span></h4>
-          <p><a href="#" rel="hc/zbd-ielznak//fohcsib" class="keinspam">bischof@kanzlei-dbz.ch</a><br>T   <a href="tel:+41 71 223 81 21">+41 71 223 81 21</a><br>F   +41 71 223 81 28</p>
       </div>
     </div>
 
@@ -230,7 +239,14 @@ erledigt:
         <img src="./assets/bilder/portraits/stephan_zlabinger_1x.jpg" alt="Stephan Zlabinger">
       </picture>
       <h2>Stephan Zlabinger</h2>
-      <p class="untertitel">MLaw, Rechtsanwalt und öffentlicher Notar</p>
+      <div class="untertitel">
+        <p>MLaw, Rechtsanwalt und öffentlicher Notar</p>
+        <ul>
+          <li><a href="#" rel="hc/zbd-ielznak//regnibalz" class="keinspam">zlabinger@kanzlei-dbz.ch</a></li>
+          <li>T   <a href="tel:+41 71 223 81 21">+41 71 223 81 21</a></li>
+          <li>F   +41 71 223 81 28</li>
+        </ul>
+      </div>
       <div class="accordion">
         <h4 class="trigger"><span>Tätigkeitsgebiete</span></h4>
           <ul class="info">
@@ -272,8 +288,6 @@ erledigt:
             <br>Demokratische Juristinnen und Juristen Schweiz
             <br>Mitglied des Vereins Kinderrechte Ostschweiz
           </p>
-        <h4 class="trigger offen"><span>Kontakt</span></h4>
-          <p><a href="#" rel="hc/zbd-ielznak//regnibalz" class="keinspam">zlabinger@kanzlei-dbz.ch</a><br>T   <a href="tel:+41 71 223 81 21">+41 71 223 81 21</a><br>F   +41 71 223 81 28</p>
       </div>
     </div>
     <div class="konsulentinnen">
@@ -286,7 +300,7 @@ erledigt:
   <!-- Anfahrt -->
 
   <div class="section four">
-    <div class="titel"><h1>So erreichen Sie uns per ÖV oder mit dem Auto</h1></div>
+    <div class="titel"><h1>So erreichen Sie uns per ÖV oder mit&nbsp;dem&nbsp;Auto</h1></div>
     <div class="text">
       <p>Unsere Kanzlei liegt im Zentrum von St.Gallen, drei Gehminuten vom Bahnhof St.Gallen entfernt.</p>
       <p>Autobahnausfahrt St.Gallen-Kreuzbleiche, dann Richtung Zentrum. Parkplätze im Parkhaus Neumarkt, Rathaus oder Manor.</p>
@@ -298,6 +312,7 @@ erledigt:
     </picture>
   </div>
   <div class="punkte"></div>
+  <a href="#scroll"><div id="up"><img src="./assets/bilder/up.svg" alt=""></div></a>
 
 </body>
 </html>
