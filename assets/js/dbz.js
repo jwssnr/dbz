@@ -18,4 +18,10 @@ $(document).ready(function(){
 
   $('.keinspam').nospam({ replaceText: true });
 
+  $(".person").click(function(){
+    // bild und text müssen in html aufeinander folgen, damit das mit next funktioniert. ist aber auch von der element-abfolge semantisch richtig.
+    $(this).toggleClass("current").next().toggleClass("open");
+    $(this).siblings(".person").removeClass("current").next().removeClass("open");
+  });
+
 });
