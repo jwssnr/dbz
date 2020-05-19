@@ -16,6 +16,7 @@ i
 body
   margin: 0 auto
   overflow-x: hidden
+  -webkit-text-size-adjust: 100%
 
 .section
   width: 100%
@@ -70,6 +71,7 @@ body
       font-size: 1.5rem
   h2
     font-size: 1.7rem
+    line-height: 0.5em
     font-family: 'HarrisonSerifPro-Light'
     +bp (mega)
       font-size: 1.3rem
@@ -84,6 +86,9 @@ body
       font-size: 1.1rem
     +bp (mega)
       display: none
+    +bp (mini)
+      left: 1em
+
   .kontaktsymbol
     width: 30px
     display: none
@@ -224,41 +229,36 @@ body
   grid-row-gap: 0
   +bp (maxi)
     grid-template-columns: repeat(3, 1fr)
-    padding: 0 0.6em 0 2em
+    padding: 0 2em 0 2em
+  +bp (midi)
+    padding: 0 2em 0 2em
   +bp (mini)
     padding: 0 1em 0 1em
-    grid-column-gap: 0.8em
+    grid-column-gap: 0.7em
 
   .person
-    cursor: pointer
-    position: relative
-    margin-bottom: 1em
-    p
-      margin-bottom: 0.5em
-      font-size: 1rem
-      +bp (midi)
-        font-size: 0.8rem
-    li, a
-      font-size: 1rem
-      +bp (midi)
-        font-size: 0.8rem
+    +bp (midi)
+      cursor: pointer
+      position: relative
+      margin-bottom: 1em
 
-
-    &:hover
-      opacity: 0.7
-    &::after
-      transition: opacity 0.3s ease
-      content: "↓"
-      position: absolute
-      bottom: -30px
-      left: 50%
-      transform: translateX(-50%)
-      opacity: 0
-    &.current
       &::after
-        opacity: 1
-        width: 100%
-        border-top: 1px solid black
+        transition: opacity 0.3s ease
+        content: " "
+        background-image: url(./assets/bilder/anzeiger.svg)
+        background-position: top
+        background-size: contain
+        background-repeat: no-repeat
+        width: 20px
+        height: 25px
+        position: absolute
+        bottom: -40px
+        left: 50%
+        transform: translateX(-50%)
+        opacity: 0
+      &.current
+        &::after
+          opacity: 1
 
 
   .person1
@@ -281,34 +281,67 @@ body
     +bp (maxi)
       grid-column: 3/4
     // +bp (midi)
+
     //   grid-column: 1/2
 
-.inhalt
-  grid-column: 3/9
-  overflow: hidden
-  outline: 1px dotted red
+#info1
+  grid-column: 3/5
   +bp (maxi)
-    grid-column: 1/5
+    grid-column: 1/2
+  +bp (midi)
+    grid-column: 1/4
+#info2
+  grid-column: 5/7
+  +bp (maxi)
+    grid-column: 2/3
+  +bp (midi)
+      grid-column: 1/4
+#info3
+  grid-column: 7/9
+  +bp (maxi)
+    grid-column: 3/4
+  +bp (midi)
+      grid-column: 1/4
+
+
+.inhalt
+  grid-row: 2/3
+  +bp (midi)
+    overflow: hidden
+    +bp (midi)
+      grid-column: 1/5
 
   .accordion
-    margin-top: -20rem
-    transition: 0.5s all ease
-    padding: 0
-    p, li, a, strong
-      font-size: 16.5px
+    ul
+      margin-bottom: 1em
+    p
+      margin: 0.7em 0 0.5em 0
+      font-size: 1rem
+      +bp (mini)
+        font-size: 0.9rem
+    li, a, strong
+      font-size: 1rem
+      +bp (mini)
+        font-size: 0.9rem
+    +bp (midi)
+      margin-top: -30rem
+      transition: 0.5s all ease
+      padding: 0
     strong
       font-family: 'HarrisonSerifPro-Bold'
       display: block
       color: #535353
 
     h4
-      font-size: 16.5px
+      font-size: 1rem
       position: relative
       margin-top: 0.5rem
       background-image: url(./assets/bilder/linie_pfeil.png)
       background-position: right
       background-repeat: no-repeat
       background-size: 500px auto
+      +bp (mini)
+        font-size: 0.9rem
       span
         background-color: whitesmoke
         padding-right: 10px
@@ -328,22 +361,20 @@ body
 
 .inhalt.open
   .accordion
-    margin-top: 0
-    transition: 0.5s 0.5s all ease
+    +bp (midi)
+      margin-top: 0.3em
+      border-top: 1px solid #a3a3a3
+    transition: 0.3s 0.1s all ease
 
 h2
   margin-top: 0.5em
 
 
-
-
 .konsulentinnen
-  margin-top: 2em
+  margin-top: 1.5em
   grid-column: 3/9
-  strong
-    font-family: 'HarrisonSerifPro-Bold'
   +bp (maxi)
-    grid-column: 1/5
+    grid-column: 1/4
 
 // __________________________________________________________________________________________________
 
