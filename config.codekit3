@@ -394,13 +394,13 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/assets/js/_scrollme.js": {
+	"/assets/js/dbz-min.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/assets/js/_scrollme-min.js",
+		"oA": 0,
+		"oAP": "/assets/js/dbz-min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -411,7 +411,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dbz-min.js",
+		"oAP": "/assets/js/dbz-min.js",
 		"oF": 3,
 		"sC": 0,
 		"tS": 0
@@ -501,17 +501,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/dbz-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/dbz.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dbz-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0

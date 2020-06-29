@@ -1,5 +1,4 @@
 // @codekit-prepend "_nospam.js";
-// @codekit-prepend "_scrollme.js";
 
 $(document).ready(function(){
 
@@ -22,6 +21,9 @@ $(document).ready(function(){
     // bild und text müssen in html aufeinander folgen, damit das mit next funktioniert. ist aber auch von der element-abfolge semantisch richtig.
     $(this).toggleClass("current").next().toggleClass("open");
     $(this).siblings(".person").removeClass("current").next().removeClass("open");
+
+    $(".info").slideUp();
+
   });
 
 });
