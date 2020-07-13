@@ -9,10 +9,6 @@
   scroll-behavior: smooth
   font-size: 18px
 
-i
-  color: fuchsia
-
-
 body
   margin: 0 auto
   overflow-x: hidden
@@ -411,3 +407,42 @@ h2
     margin: 1em 0 0 0
     grid-column: 3/9
     grid-row: 3/4
+
+// __________________________________________________________________________________________________
+//Browserblast
+
+.browserblast
+  h2, p, a
+    color: whitesmoke
+    font-family: 'HarrisonSerifPro-Bold'
+    margin-bottom: 0.7em
+  a
+    background-image: linear-gradient(whitesmoke, whitesmoke)
+    background-size: 100% 1px
+    background-repeat: no-repeat
+    background-position: 0 94%
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  background-color: #864343
+  padding: 1em
+  margin: 0 auto
+  width: 35%
+  max-width: 45  0px
+  z-index: 3000
+  +bp (maxi)
+    width: 50%
+  +bp (midi)
+    width: 70%
+  +bp (mini)
+    width: 90%
+  .browserblast__closer
+    font-size: 2.7em
+    text-align: right
+    line-height: 0.7em
+    margin: 0
+
+@supports(display:grid)
+  .browserblast
+    display: none
