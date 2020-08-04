@@ -1,0 +1,24 @@
+.four
+  grid-template-rows: auto auto auto auto
+  +bp(maxi)
+    grid-template-columns: 1fr
+    grid-gap: 0
+    padding: 0 2em 0 2em
+  +bp(mini)
+    padding: 0 1em
+
+  span::before
+    content: ""
+    display: inline-block
+    height: 1.3rem
+    width: 1.4rem
+    position: relative
+    bottom: -0.3rem
+    background-image: url(./assets/bilder/location.svg)
+    background-repeat: no-repeat
+    background-size: contain
+  picture, img
+    width: 100%
+    margin: 1em 0 0 0
+    grid-column: 3/9
+    grid-row: 3/4

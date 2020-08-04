@@ -1,0 +1,50 @@
+.one
+  margin-bottom: 6em
+  grid-template-rows: 35vh 1fr auto
+
+  +bp(maxi)
+    display: block
+    padding-top: 13em
+
+
+#beschreibung
+  max-width: 800px
+  grid-column: 3/7
+  grid-row: 2/3
+  padding-right: 3em
+  align-self: start
+  +bp(mega)
+    grid-column: 2/7
+  +bp(maxi)
+    max-width: 100%
+    grid-column: 2/11
+    padding-bottom: 4em
+    grid-row: 1/2
+    padding: 6em 2em 6em 2em
+
+  +bp(mini)
+    padding: 4em 1em 4em 1em
+
+  .corona
+    font-family: 'HarrisonSerifPro-Bold'
+    color: #864343
+    padding-top: 1em
+
+#gruppenfoto
+  grid-column: 7/11
+  grid-row: 1/4
+  height: 100vh
+  z-index: 4
+  background-image: url(./assets/bilder/team/dbz-kanzlei_2000.jpg)
+  background-size: cover
+  background-position: center
+
+  +bp(maxi)
+    grid-column: 1/11
+    grid-row: 2/3
+    height: auto
+    background-image: none
+  img
+    display: none
+    +bp(maxi)
+      display: block

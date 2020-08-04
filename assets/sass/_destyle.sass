@@ -2,10 +2,20 @@
 
 html
   font-family: 'HarrisonSerifPro-Light'
-  font-size: 16px
   -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
   font-feature-settings: "onum" 1, "pnum" 1, "frac" 0, "kern" 1, "liga" 1, "dlig" 1, "clig" 1, "swsh" 1
+  font-size: 19px
+  +bp(mega)
+    font-size: 18px
+  +bp(stop)
+    font-size: 17px
+  +bp(maxi)
+    font-size: 16px
+  +bp(midi)
+    font-size: 15px
+  +bp(mini)
+    font-size: 14px
 
 body
   background-color: whitesmoke

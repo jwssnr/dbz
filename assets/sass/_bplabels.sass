@@ -1,4 +1,4 @@
-body:before
+body::before
   content: "standard"
   position: fixed
   background: rgb(94, 207, 136)
@@ -9,20 +9,20 @@ body:before
   z-index: 9999
   font-weight: bold
   display: block
-body:before
+body::before
   +bp(mega)
     content: "mega"
     background: fuchsia
-    display: block
-body:before
+body::before
+  +bp(stop)
+    content: "stop"
+    background: orange
+body::before
   +bp(maxi)
     content: "maxi"
-    background: orange
-body:before
+body::before
   +bp(midi)
     content: "midi"
-    background: black
-body:before
+body::before
   +bp(mini)
     content: "mini"
-    background: cyan
