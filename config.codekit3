@@ -591,6 +591,14 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"/google12d0f2249a4d9ed6.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/google12d0f2249a4d9ed6.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -600,7 +608,7 @@
 		"oF": 0
 		},
 	"/index.kit": {
-		"cB": 0,
+		"cB": 1,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
